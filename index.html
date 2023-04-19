@@ -18,7 +18,7 @@
 </head>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div class="container-fluid">
       <!-- Navbar brand -->
       <!-- <div class="ratio ratio-16x9">
@@ -111,6 +111,7 @@
 </header>
 <!-- mess with footer and header in and out of body  -->
 <body >
+  <main class="my-5 mb-4">
   <!-- Start your project here-->
   <div id="about-us" class="p-3 mb-2 bg-white bg-gradient text-dark">
 
@@ -143,12 +144,17 @@
     <h2 class="text-center">OUR SERVICES</h2>
       <h4 class="text-muted text-center">Call or Email for a Quote</h4>
     </div>
+
+    <!-- **********************************************************  -->
+
+    <!-- ************************************************************** -->
     <!-- from allys text we speacialize in asphalt shingles and epdm flat roofs. Tear offs. new construction, and repairs -->
     <!--Main Navigation-->
 
     <!--Main layout-->
     <!-- try 2 rows in one div instead of all 6 or 2 rows of 3 -->
-    <main class="my-5 mb-4">
+    <!-- *********************************************** -->
+    
       <div class="container">
         <!--Section: Content-->
         <section class="text-center">
@@ -299,7 +305,7 @@
   <!-- asphalt shingles and epdm flat roofs. Tear offs. new construction, and repairs  -->
   <!-- crop and edit photos *****************************************************************  -->
   <!-- photos too large on laptop looks good on phone need controls to work -->
-  <div id="our-work mb-4" class="row">
+  <div id="our-work" class="row mb-4">
     <h2 class="text-center">OUR WORK</h2> <!-- Carousel wrapper -->
   
     <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
@@ -399,24 +405,14 @@
   <script type="text/javascript"></script>
   <!-- main closing was after our services moved here seems better  -->
 </main>
+<!-- ********************************************************** -->
 </body>
 <!-- took footer out of body  -->
-<footer class="text-center text-white fixed-bottom" style="background-color: #f1f1f1;">
+<!-- position-relative makes footer not overlap but footer isnt sticky then -->
+<footer class="fixed-bottom text-center text-white " style="background-color: #f1f1f1;">
   <!-- Grid container -->
   <div class="container pt-.50 text-center align-items-center"> 
-    <!-- Section: Social media -->
-    <!-- <section class="d-flex justify-content-center justify-content-lg-between text-center p-1.5 border-bottom">  -->
-      <!-- Left -->
-      <!-- ****commenteting out div below moves text in footer to left ftom right  -->
-      <!-- <div class="me-5 d-none d-lg-block text-dark"> -->
-        <!-- <span>Connect with us</span>  -->
-      <!-- </div> -->
-      <!-- Left -->
-
-      <!-- Right -->
-      <!-- dont think below div is necessary  -->
-      <!-- <div class="align-center"> --> 
-        <!-- need spacing and centering  -->
+ 
         <a href="https://www.facebook.com/people/Simmons-Roofing/100063911383949/" class="me-4 link-secondary">
           <i class="fab fa-facebook-f text-primary fa-2x"></i>
         </a>
@@ -428,10 +424,7 @@
           <!-- <i class="fa-2x">simmonsroofingwi@gmail.com</i>   -->
         </a>
    
-      <!-- </div>  -->
-      <!-- Right -->
-    <!-- </section> -->
-    <!-- Section: Social media -->
+    
   </div> 
   <!-- Grid container -->
 
