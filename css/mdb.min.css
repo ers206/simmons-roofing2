@@ -27,7 +27,7 @@
 #image3{
   border-radius: 50%;
 }
-.noview{
+.noview, .noview1, .noview2 {
   visibility: hidden;
 }
 /*!rtl:raw:
