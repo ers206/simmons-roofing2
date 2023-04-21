@@ -27,7 +27,9 @@
 #image3{
   border-radius: 50%;
 }
-
+.noview{
+  visibility: hidden;
+}
 /*!rtl:raw:
 [type="tel"],
 [type="url"],
