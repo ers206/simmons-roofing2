@@ -31,10 +31,12 @@
   visibility: hidden;
 }
 #cImage1, #cImage2, #cImage3, #cImage4, #cImage5, #cImage6 {
-  width:75%;
+  width:10%;
   height: 100vh;
 }
-
+#hImage {
+border-radius: 25px;
+}
 #sImage1, #sImage2, #sImage3, #sImage4, #sImage5, #sImage6 {
   width: 640px;
   height: 360px;
