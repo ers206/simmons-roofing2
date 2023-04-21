@@ -30,6 +30,15 @@
 .noview, .noview1, .noview2 {
   visibility: hidden;
 }
+#cImage1, #cImage2, #cImage3, #cImage4, #cImage5, #cImage6 {
+  width:75%;
+  height: 100vh;
+}
+
+#sImage1, #sImage2, #sImage3, #sImage4, #sImage5, #sImage6 {
+  width: 640px;
+  height: 360px;
+}
 /*!rtl:raw:
 [type="tel"],
 [type="url"],
