@@ -41,6 +41,15 @@ border-radius: 25px;
   width: 640px;
   height: 360px;
 }
+.fa-envelope:hover, .fa-facebook-f:hover, .fa-phone:hover {
+  transform: scale(2);
+  border-radius: 50%;
+}
+.carousel-inner {
+
+  margin: auto;
+
+}
 /*!rtl:raw:
 [type="tel"],
 [type="url"],
