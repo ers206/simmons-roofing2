@@ -53,6 +53,9 @@ border-radius: 25px;
 #our-work{
   margin: auto;
 }
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
 /*!rtl:raw:
 [type="tel"],
 [type="url"],
