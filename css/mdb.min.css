@@ -54,7 +54,7 @@ border-radius: 25px;
   margin: auto;
 }
 .text-responsive {
-  font-size: calc(100% + 1vw + 1vh);
+  font-size: calc(80% + 1vw + 1vh);
 }
 /*!rtl:raw:
 [type="tel"],
