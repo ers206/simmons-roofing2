@@ -24,9 +24,9 @@
     /* text-decoration: line-through  */
 }
 
-#image3{
+/* #image3{
   border-radius: 50%;
-}
+} */
 .noview, .noview1, .noview2 {
   visibility: hidden;
 }
@@ -34,9 +34,9 @@
   width:10%;
   height: 100vh;
 }
-#hImage {
+/* #hImage {
 border-radius: 25px;
-}
+} */
 #sImage1, #sImage2, #sImage3, #sImage4, #sImage5, #sImage6 {
   width: 640px;
   height: 360px;
